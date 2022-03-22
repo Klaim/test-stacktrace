@@ -1,0 +1,7 @@
+config.cxx = cl
+config.c = cl
+config.cc.coptions = /O2
+
+config.install.root = ../install/msvc-release
+
+--options-file common.options

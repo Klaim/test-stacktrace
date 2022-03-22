@@ -1,0 +1,8 @@
+config.cxx = clang++
+config.c = clang
+config.cc.poptions += -g -O0
+config.cc.loptions += -DEBUG
+
+config.install.root = ../install/clang-debug
+
+--options-file common.options

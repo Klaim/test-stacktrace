@@ -1,0 +1,6 @@
+libs =
+import libs += libboost-stacktrace%lib{boost_stacktrace_windbg} fmt%lib{fmt}
+
+exe{myapp}: {hxx ixx txx cxx}{**} $libs testscript
+
+cxx.poptions =+ "-I$out_root" "-I$src_root"

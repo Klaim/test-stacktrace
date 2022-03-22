@@ -1,0 +1,9 @@
+config.cxx = em++
+config.c = emcc
+config.cc.poptions = -g -O0
+
+config.install.root = ../install/wasn-debug
+
+config.test.runner = node
+
+--options-file common.options

@@ -1,0 +1,8 @@
+config.cxx = cl /MDd
+config.c = cl /MDd
+config.cc.coptions = /Od /Zi
+config.cc.loptions = /DEBUG
+
+config.install.root = ../install/msvc-debug
+
+--options-file common.options

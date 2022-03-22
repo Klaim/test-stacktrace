@@ -1,0 +1,7 @@
+config.cxx = clang++
+config.c = clang
+config.cc.poptions += -O2
+
+config.install.root = ../install/clang-release
+
+--options-file common.options

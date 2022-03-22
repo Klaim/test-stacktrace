@@ -1,0 +1,10 @@
+config.cxx = em++
+config.c = emcc
+config.cc.poptions = -O2
+
+config.install.root = ../install/wasm-release
+
+config.test.runner = node
+
+--options-file common.options
+
